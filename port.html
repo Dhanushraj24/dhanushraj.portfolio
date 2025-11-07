@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhanushraj — Portfolio</title>
+
+  <!-- Replace with your own favicon -->
+  <link rel="icon" href="/Img/online-resume.png" />
+
+  <link rel="stylesheet" href="port.css" />
+</head>
+<body>
+  <!-- Header (sticky) -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <!-- Minimal textual brand — you can replace with logo -->
+        <span class="brand-name">Dhanushraj</span>
+        <small class="brand-sub">Python Full-Stack Developer</small>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <ul class="nav-list" id="nav-list">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">🌙</button>
+        <button id="menu-toggle" class="btn-icon menu-btn" aria-label="Toggle navigation" aria-expanded="false">
+          <!-- simple hamburger icon -->
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Intro -->
+  <main id="home">
+    <section class="hero container" id="hero">
+      <div class="hero-left">
+        <h1 class="hero-title"><span id="typing">Hello I'm Dhanushraj</span></h1>
+        <p class="hero-sub">Computer Science graduate with skills in HTML, CSS, JavaScript, Bootstrap, Python, and SQL, with basic knowledge of Django and React</p>
+
+        <div class="hero-cta">
+          <a class="btn" href="Dhanushraj V Python Full-Stack Developer Resume.pdf" download>Download Resume</a>
+          <a class="btn-outline" href="#projects">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- replace with your own profile image -->
+        <img class="profile-img" src="/Img/img.png" alt="Dhanushraj profile picture" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container reveal" id="about">
+      <h2>About</h2>
+      <p>I am a B.E CSE 2024 graduate with a CGPA of 7.78. I have skills in Python, SQL, HTML, CSS, JavaScript, and Bootstrap, along with basic knowledge of Django and React. I enjoy learning new technologies and building projects that solve real-world problems. As a fresher, I am eager to apply my skills and grow as a developer.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container reveal" id="skills">
+      <h2>Skills</h2>
+      <div class="grid skills-grid">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>Proficient in creating well-structured and semantic webpages.</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>Skilled at styling layouts with responsive and modern designs.</p>
+        </div>
+        <div class="card">
+          <h3>Bootstrap</h3>
+          <p>Experienced in building UI quickly using components and grid system.</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>Strong understanding of logic, DOM manipulation, and interactivity.</p>
+        </div>
+        <div class="card">
+          <h3>React.JS</h3>
+          <p>Basic exposure to components, props, and state; continuously learning.</p>
+        </div>
+        <div class="card">
+          <h3>Python</h3>
+          <p>Proficient in core Python programming, problem-solving, and building scripts/applications.</p>
+        </div>
+        <div class="card">
+          <h3>Django</h3>
+          <p>Basic understanding of models, views, and templates; continuously learning.</p>
+        </div>
+        <div class="card">
+          <h3>SQL</h3>
+          <p>Capable of writing queries, joins, and managing relational databases effectively.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section container reveal" id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-list">
+
+        <article class="project">
+          <h3>Library Management System</h3>
+          <p>Technologies: Python, MySQL [Backend with DataBase]</p>
+
+          <p>Description: A system to manage library books, supporting add, view, search, update, and delete operations.</p>
+
+          <p>Key Features: CRUD operations, database connectivity with MySQL, efficient record management.</p>
+          <p>GitHub Link 👉 <a class="github" href="https://github.com/Dhanushraj24/Library-Management-System.git" target="_blank">Library Management System GitHub Link Click Here...!</a></p>
+          
+        </article>
+
+        <article class="project">
+          <h3>Expense Tracker</h3>
+          <p>Technologies: Python, MySQL [Backend with DataBase]</p>
+          <p>Description: An application to track daily expenses by category, view totals, and manage records efficiently.</p>
+          <p>Key Features: CRUD operations, expense categorization, total expense calculation, and database management.</p>
+          <p>GitHub Link 👉 <a class="github" href="https://github.com/Dhanushraj24/Expense-Tracker-.git" target="_blank">Expense Tracker GitHub Link Click Here...!</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section container reveal" id="achievements">
+      <h2>Achievements</h2>
+      <ul class="achievements-list">
+        <li>B.E. Computer Science — CGPA 7.78</li>
+        <li>Completed Python Full-Stack Development Program (BTree Systems Jan - Sep 2025)</li>
+      </ul>
+    </section>
+
+    <!-- Contact (Bottom) -->
+    <section class="section container reveal contact-section" id="contact">
+      <h2>Contact</h2>
+      <p>If you'd like to reach out, choose one of the links below.</p>
+
+      <div class="contact-links">
+        <a class="contact-item" href="mailto:dhanushrajv24@gmail.com">📧 dhanushrajv24@gmail.com</a>
+        <a class="contact-item" href="https://www.linkedin.com/in/vdhanush-raj/" target="_blank" rel="noopener">🔗 linkedin.com/in/vdhanush-raj</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Dhanushraj • Built with HTML, CSS & JavaScript</small>
+    </div>
+  </footer>
+
+  <script src="port.js"></script>
+</body>
+</html>
